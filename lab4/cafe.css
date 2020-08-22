@@ -1,0 +1,80 @@
+div.ct{
+    text-align: center;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body{
+    background-image: url(../lab4/images/images.jpg);
+}
+body.bd{
+    border: double;
+    height: 1450px;
+    width: 1000px;
+    margin-left:10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    padding-right: 4%;    
+}
+h3{
+    font-weight: bold;
+    text-decoration: underline;
+}
+img.ct{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    border: dotted;
+    border-radius: 10%;
+    
+}
+/*nav.cf>img{
+    width: 320px;
+    height: 300px;
+    border: groove red;
+    display: inline;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    }*/
+footer.ft{
+    font-weight: bold;
+    margin-left: 11.5%;
+    position: sticky;
+    top: 100%; /* bottom: 0%: dòng chạy theo cuộn*/
+}
+footer{
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: right;
+}
+p::first-line{
+    text-indent: 1.3rem;
+}
+p::first-letter{
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.small {
+    width: 320px;
+    height: 300px;
+    border: groove red;
+    display: inline;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+.big {
+    width: 400px;
+    height: 400px;
+    border: groove red;
+}
+span{
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 500px;
+}
